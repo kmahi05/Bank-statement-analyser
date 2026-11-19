@@ -1,0 +1,75 @@
+{
+  "statement_period": {
+    "from": "2026-04-01",
+    "to": "2026-09-29"
+  },
+  "monthly_average_balance": {
+    "2026-04": "1320098.53",
+    "2026-05": "2539961.19",
+    "2026-06": "4475482.73",
+    "2026-07": "5208800.79",
+    "2026-08": "5961470.88",
+    "2026-09": "6909101.83"
+  },
+  "monthly_days_counted": {
+    "2026-04": 30,
+    "2026-05": 31,
+    "2026-06": 30,
+    "2026-07": 31,
+    "2026-08": 31,
+    "2026-09": 29
+  },
+  "bounces": [
+    {
+      "cheque_no": "100349",
+      "deposit": 19,
+      "return": 27,
+      "charge": 28,
+      "amount": "73459.75"
+    },
+    {
+      "cheque_no": "100357",
+      "deposit": 55,
+      "return": 59,
+      "charge": 60,
+      "amount": "75687.43"
+    },
+    {
+      "cheque_no": "100364",
+      "deposit": 183,
+      "return": 187,
+      "charge": 188,
+      "amount": "117072.30"
+    }
+  ],
+  "round_trips": [
+    {
+      "credit": 190,
+      "debit": 194,
+      "counterparty": "TARA VENTURES",
+      "amount": "360000.00",
+      "gap_days": 2
+    },
+    {
+      "credit": 235,
+      "debit": 236,
+      "counterparty": "KRISHNA TRADELINKS",
+      "amount": "360000.00",
+      "gap_days": 0
+    }
+  ],
+  "balance_breaks": [
+    {
+      "line": 205,
+      "expected": "6062332.52",
+      "printed": "6087332.52",
+      "difference": "25000.00"
+    }
+  ],
+  "warnings": [
+    {
+      "line": null,
+      "issue": "dates use DD-MM-YYYY (spec says YYYY-MM-DD); read as day-month-year"
+    }
+  ]
+}
